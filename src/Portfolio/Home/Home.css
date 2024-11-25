@@ -1,0 +1,79 @@
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 160px auto 50px auto;
+    background:linear-gradient(50deg,#1f2833,#0b0c10,#1f2833);
+
+    color: #c5c6c7;
+    gap: 200px;
+    
+}
+
+.profile-content {
+    flex: 2;
+    text-align: left;
+}
+
+.profile-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.profile-image img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.name-span {
+    color: #66fcf1;
+}
+
+.skill {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.skill-span {
+    color: #45a29e;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.main-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-icons a {
+    font-size: 1.5rem;
+    color: #66fcf1;
+    padding: 10px;
+    border: 2px solid #66fcf1;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.main-icons a:hover {
+    transform: scale(1.1);
+    color: #c5c6c7;
+    box-shadow: 0px 0px 15px 5px #c5c6c7;
+}

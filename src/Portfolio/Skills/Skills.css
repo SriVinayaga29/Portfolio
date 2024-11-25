@@ -1,0 +1,158 @@
+
+.container {
+    max-width: 1200px;
+    margin: 40px 100px;
+    margin-bottom: 50px;
+    background: linear-gradient(50deg, #1f2833, #0b0c10, #1f2833);
+    color: #c5c6c7;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.heading h1 {
+    color: #45a29e;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skills-heading h1 {
+    color: #45a29e;
+    margin-bottom: 15px;
+   
+}
+
+
+.skill-categories h2,
+.skills-content-skills h2 {
+    cursor: pointer;
+    color: #c5c6c7;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+   
+}
+.skill-categories h2{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-categories h2.active,
+.skill-categories h2:hover,
+.skills-content-skills h2:hover {
+    color: #45a29e;
+}
+
+.skill-categories h2::after,
+.skills-content-skills h2::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #45a29e;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-categories h2.active::after,
+.skill-categories h2:hover::after,
+.skills-content-skills h2.active::after,
+.skills-content-skills h2:hover::after {
+    transform: scaleX(1);
+}
+
+
+.skills-content, 
+.skills-content-two-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.skill-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skills-content-details,
+.skill-known p, 
+.Tools p, 
+.skill-div p {
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* Span and Color Styling */
+.skills-span, 
+.skills-content-skills-span,
+.skills-content-skills-span-marks, 
+.span-marks {
+    color: #45a29e;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.skills-content-skills-span-edu,
+.span-edu {
+    color: #c5c6c7;
+    font-size: 1.1rem;
+}
+
+.Tools h3,
+.skill-div-front-end h3,
+.skill-div-back-end h3 {
+    font-size: 1.5rem;
+    color: #45a29e;
+    margin-top: 20px;
+}
+
+/* Image Styling */
+.skills-content-png {
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.skills-content-png img {
+    width: 400px;
+    max-width: 100%;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 800px) {
+    .container,
+    .skills-container {
+        margin: 0 15px;
+        font-size: 0.9rem;
+        margin-bottom: 40px;
+    }
+
+    .heading h1,
+    .skills-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .skill-categories h2,
+    .skills-content-skills h2 {
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+
+    .skills-content,
+    .skills-content-two-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .skills-content-png img {
+        width: 350px;
+    }
+}

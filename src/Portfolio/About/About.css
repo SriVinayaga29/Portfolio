@@ -1,0 +1,45 @@
+
+about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background:linear-gradient(50deg,#1f2833,#0b0c10,#1f2833);
+
+}
+
+
+about .image h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:  #45a29e;
+    gap: 200px;
+    text-align: center;
+}
+
+
+about .image img {
+    max-width: 500px; 
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 8px; 
+}
+
+about .content {
+    max-width: 1200px;
+    text-align: center;
+
+    background:linear-gradient(50deg,#1f2833,#0b0c10,#1f2833);
+
+    color: #c5c6c7;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+about .content p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+}

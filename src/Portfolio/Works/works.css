@@ -1,0 +1,60 @@
+/* timeline.css */
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 20px 0;
+}
+
+.timeline-item-content {
+    position: relative;
+    padding: 15px 20px;
+    background: #1f2833;
+    color: #c5c6c7;
+    border-radius: 8px;
+    width: calc(50% - 40px);
+    left: calc(50% + 20px);
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content {
+    left: calc(0% + 20px);
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #66fcf1;
+    margin-bottom: 5px;
+}
+
+.circle {
+    position: absolute;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background: #45a29e;
+    border-radius: 50%;
+    left: -35px;
+}
+
+.timeline-item:nth-child(odd) .circle {
+    left: auto;
+    right: -35px;
+}
+
+@media (max-width: 768px) {
+    .timeline-item-content,
+    .timeline-item:nth-child(odd) .timeline-item-content {
+        width: 100%;
+        left: 0;
+    }
+
+    .circle {
+        left: -10px;
+    }
+}
