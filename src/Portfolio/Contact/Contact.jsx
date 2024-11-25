@@ -39,6 +39,9 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <div className="code">
+                        <p> Coded With❤️by Sri</p>
+                    </div>
         </>
     );
 }

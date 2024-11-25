@@ -127,6 +127,11 @@ body {
     background-color: #45a29e;
     color: #0b0c10;
 }
+.code{
+  margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 800px) {
     .container {
