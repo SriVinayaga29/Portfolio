@@ -23,10 +23,10 @@ function Home() {
                         <h2 className='skill'>I'm a <span className='skill-span'>Cybersecurity Analyst</span></h2>
                         <p>I’m Mathan, and I specialize in cybersecurity analysis. My passion lies in protecting organizations from cyber threats through thorough risk assessments and strategic security implementations.</p>
                         <div className='main-icons'>
-                            <a href=""target='_blank'><FontAwesomeIcon icon={faLinkedin} /></a>
-                            <a href="" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
-                            <a href="" target='_blank'><FontAwesomeIcon icon={faInstagram} /></a>
-                            <a href="" target='_blank'><FontAwesomeIcon icon={faFacebook} /></a>
+                            <a href="https://www.linkedin.com"target='_blank' rel="noreferrer noopener"><FontAwesomeIcon icon={faLinkedin} /></a>
+                            <a href="https://www.github.com" target='_blank' rel="noreferrer noopener"><FontAwesomeIcon icon={faGithub} /></a>
+                            <a href="https://www.instagram.com" target='_blank' rel="noreferrer noopener"><FontAwesomeIcon icon={faInstagram} /></a>
+                            <a href="https://www.facebook.com" target='_blank' rel="noreferrer noopener"><FontAwesomeIcon icon={faFacebook} /></a>
                         </div>
                     </div>
                 </div>
